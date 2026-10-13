@@ -1,0 +1,31 @@
+# Virtual environment
+.venv/
+venv/
+MLE/
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Datasets
+data/*.csv
+
+# Generated ML models
+models/*.pkl
+models/*.joblib
+models/*.pth
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+
