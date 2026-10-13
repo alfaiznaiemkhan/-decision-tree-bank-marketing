@@ -11,8 +11,8 @@ MLE/
 data/*.csv
 
 # Generated ML models
-models/*.pkl
 models/*.joblib
+models/*.pkl
 models/*.pth
 
 # Python cache
